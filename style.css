@@ -1,0 +1,30 @@
+body {
+    font-size: 15px;
+    background-color: #ade9d2;
+}
+
+.bodyproposition {
+    display: flex;
+    justify-content: center;
+}
+
+.proposition {
+    display: flex;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.selected {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 836px) {
+    .proposition {
+        font-size: 2rem;
+    }
+
+    .selected {
+        font-size: 1.5rem;
+    }
+}
